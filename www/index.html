@@ -29,9 +29,9 @@
 <body>
 
   <a-scene
-  embedded
-  vr-mode-ui="enabled: false"
-  arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3; patternRatio: 0.5;">
+    embedded
+    vr-mode-ui="enabled: false"
+    arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3; sourceWidth: 1280; sourceHeight: 960; displayWidth: 1280; displayHeight: 960;">
 
     <!-- ============ LIGHTING ============ -->
     <a-entity light="type: ambient; color: #ffffff; intensity: 1.2"></a-entity>
@@ -39,101 +39,101 @@
     <a-entity light="type: directional; color: #ffffff; intensity: 0.4" position="-1 1 -1"></a-entity>
 
     <!-- ============ MATAHARI ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-00_matahari_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/00_matahari.patt">
       <a-entity
         gltf-model="assets/models/SO_Matahari.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 20000; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ MERKURIUS ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-01_merkurius_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/01_merkurius.patt">
       <a-entity
         gltf-model="assets/models/SO_Merkurius.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ VENUS ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-02_venus_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/02_venus.patt">
       <a-entity
         gltf-model="assets/models/SO_Venus.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ BUMI ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-03_bumi_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/03_bumi.patt">
       <a-entity
         gltf-model="assets/models/SO_Bumi.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 12000; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ BULAN ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-03-5_bulan_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/03-5_bulan.patt">
       <a-entity
         gltf-model="assets/models/SO_Bulan.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 10000; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ MARS ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-04_mars_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/04_mars.patt">
       <a-entity
         gltf-model="assets/models/SO_Mars.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 13000; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ JUPITER ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-05_jupiter_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/05_jupiter.patt">
       <a-entity
         gltf-model="assets/models/SO_Jupiter.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 9000; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ SATURNUS ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-06_saturnus_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/06_saturnus.patt">
       <a-entity
         gltf-model="assets/models/SO_Saturnus.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 9500; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ URANUS ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-07_uranus_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/07_uranus.patt">
       <a-entity
         gltf-model="assets/models/SO_Uranus.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 11000; easing: linear">
       </a-entity>
     </a-marker>
 
     <!-- ============ NEPTUNUS ============ -->
-    <a-marker type="pattern" url="assets/markers/pattern-08_neptunus_scaled.patt">
+    <a-marker type="pattern" url="assets/markers/08_neptunus.patt">
       <a-entity
         gltf-model="assets/models/SO_Neptunus.glb"
-        scale="5 5 5"
-        position="0 1 0"
+        scale="2 2 2"
+        position="0 0.5 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 11500; easing: linear">
       </a-entity>
     </a-marker>
