@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tatasurya</string>
+    <string name="title_activity_main">Tatasurya</string>
+    <string name="package_name">com.mei27klp1.tatasurya</string>
+    <string name="custom_url_scheme">com.mei27klp1.tatasurya</string>
+</resources>
